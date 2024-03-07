@@ -1,0 +1,21 @@
+.fundamentalsContainer {
+    border-bottom: 1px solid rgba(211, 224, 230, 1);
+    margin: 2% 0;
+}
+
+.parent {
+
+
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20%;
+
+    div {
+        cursor: pointer;
+    }
+}
+
+.highlight {
+    color: rgb(80, 80, 231);
+    text-decoration: underline;
+}

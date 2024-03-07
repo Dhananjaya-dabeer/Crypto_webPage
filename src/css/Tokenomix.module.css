@@ -1,0 +1,65 @@
+.parent {
+    background-color: white;
+    margin-top: 3%;
+    padding: 2%;
+}
+
+
+.header {
+    margin-bottom: 5%;
+}
+
+.distributionHeader {
+    margin-bottom: 3%;
+}
+
+.investorInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35vw;
+    margin-bottom: 5%;
+}
+
+.investorCircle {
+    width: 10vw;
+    height: 20vh;
+    border-radius: 50%;
+    border: 40px solid;
+    border-color: blue blue blue rgb(229, 208, 15);
+    transform: rotate(45deg);
+}
+
+.CrowdInvestor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+
+    .blueCircle {
+        width: 1vw;
+        height: 2vh;
+        border-radius: 50%;
+        background: blue;
+
+    }
+
+
+}
+
+.Foundation {
+    display: flex;
+    align-items: center;
+
+    .khakiCircle {
+        width: 1vw;
+        height: 2vh;
+        border-radius: 50%;
+        background: rgb(229, 208, 15);
+    }
+}
+
+.lorem {
+    p {
+        line-height: 140%;
+    }
+}

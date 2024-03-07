@@ -1,0 +1,44 @@
+.parent {
+    padding: 2%;
+    margin-top: 3%;
+    background: white;
+}
+
+.aboutBitCoin {
+    margin-bottom: 3%;
+
+    h1 {
+        margin-bottom: 2%;
+    }
+
+    border-bottom: 1px solid rgba(201, 207, 221, 0.6);
+}
+
+.text {
+    border-bottom: 1px solid rgba(201, 207, 221, 0.6);
+    margin-bottom: 3%;
+
+    h3 {
+        margin-bottom: 2%;
+    }
+
+    p {
+        margin-bottom: 3%;
+    }
+}
+
+.holdingBitCoin {
+    margin-bottom: 3%;
+}
+
+.imgs {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(201, 207, 221, 0.6);
+    margin: 3% 0;
+
+    img {
+        width: 30vw;
+        height: 20vh;
+    }
+}

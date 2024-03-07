@@ -1,0 +1,114 @@
+.parent {
+    background-color: white;
+    padding: 2%;
+}
+
+
+
+.TodayhighAndLow {
+    display: flex;
+    justify-content: space-between;
+
+    .gradient {
+        width: 40vw;
+        height: 1vh;
+        background: linear-gradient(45deg, #ff0000, #ff8000, #ffff00, #80ff00, #00ff00, #00ff80, #00ffff, #0080ff, #0000ff, #8000ff, #ff00ff, #ff0080, #ff0000);
+        border-radius: 12px;
+    }
+}
+
+.TodayhighAndLow {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+
+    .todayLow {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 6vh;
+    }
+
+    .todayHigh {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 6vh;
+    }
+}
+
+.fundamentals {
+    margin-top: 5%;
+}
+
+.fundamentalsConatiner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+
+    div {
+        border-bottom: 1px solid rgba(211, 224, 230, 1);
+
+        width: 25vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8% 0;
+    }
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+
+    div {
+        border-bottom: 1px solid rgba(211, 224, 230, 1);
+        width: 25vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8% 0;
+    }
+}
+
+.allTimeHigh {
+    div {
+        margin: 0;
+        width: fit-content;
+        width: 9vw;
+        margin-left: 3%;
+        border-bottom: none;
+        padding: 0;
+    }
+
+    .red {
+        color: red;
+    }
+}
+
+.allTimeLow {
+    div {
+        margin: 0;
+        width: fit-content;
+        width: 10vw;
+        margin-left: 3%;
+        border-bottom: none;
+        padding: 0;
+    }
+
+    .green {
+        color: green;
+    }
+}
+
+.liteColor {
+    color: rgb(145, 138, 138);
+
+}

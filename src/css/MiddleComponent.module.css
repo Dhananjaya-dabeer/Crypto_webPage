@@ -1,0 +1,59 @@
+.parent {
+    margin-left: 5%;
+    margin-bottom: 6%;
+}
+
+.middleComponentContainer {
+    padding-right: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftContainer {
+    width: 62.5vw;
+}
+
+.trendingCoinsContainer {
+    background-color: white;
+    margin-top: 5%;
+    border-radius: 12px;
+    padding: 5% 10%;
+}
+
+.trending {
+
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        width: inherit;
+        margin-bottom: 3%;
+        align-items: center;
+
+        img {
+            width: 2vw;
+            height: 4vh;
+        }
+
+        p {
+            background-color: rgb(214, 220, 214);
+            color: green;
+        }
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+    .leftContainer {
+        width: unset;
+    }
+
+    .trendingCoinsContainer {
+        display: none;
+    }
+
+    .KoinXImageAndTrending {
+        .img {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.parent {
+    height: 7vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.InnerContainer {
+    display: flex;
+    
+
+    div {
+        /* width: 8vw; */
+        display: flex;
+        align-items: center;
+        margin-right: 0.3%;
+
+        p {
+            /* margin-left: 5%; */
+            /* margin-right: 5%; */
+            font-weight: 700;
+        }
+    }
+
+    .highlightFont {
+        font-weight: 700;
+    }
+}
